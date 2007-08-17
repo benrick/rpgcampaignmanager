@@ -52,6 +52,8 @@ namespace CampaignManagerTester
             }
         }
 
+        #region Characters
+
         private static void CharacterMenu()
         {
             string choice = string.Empty;
@@ -88,6 +90,10 @@ namespace CampaignManagerTester
                 choice = Console.ReadLine();
             }
         }
+
+        #endregion
+
+        #region Items
 
         private static void ItemMenu()
         {
@@ -126,6 +132,10 @@ namespace CampaignManagerTester
             }
         }
 
+        #endregion
+
+        #region Event
+
         private static void EventMenu()
         {
             string choice = string.Empty;
@@ -163,6 +173,10 @@ namespace CampaignManagerTester
             }
         }
 
+        #endregion
+
+        #region Location
+
         private static void LocationMenu()
         {
             string choice = string.Empty;
@@ -182,6 +196,9 @@ namespace CampaignManagerTester
                     case "l":
                         Console.WriteLine("List Locations Selected");
                         break;
+                    case "n":
+                        EncounterMenu();
+                        break;
                     default:
                         Console.WriteLine("Invalid Input Please Try Again.");
                         break;
@@ -194,11 +211,16 @@ namespace CampaignManagerTester
                 Console.WriteLine("e: Edit Location");
                 Console.WriteLine("d: Delete Location");
                 Console.WriteLine("l: List Locations");
+                Console.WriteLine("n: Manage Location Encounters");
                 Console.WriteLine("-----------------");
 
                 choice = Console.ReadLine();
             }
         }
+
+        #endregion
+
+        #region Species
 
         private static void SpeciesMenu()
         {
@@ -236,5 +258,48 @@ namespace CampaignManagerTester
                 choice = Console.ReadLine();
             }
         }
+
+        #endregion
+
+        #region Encounter
+
+        private static void EncounterMenu()
+        {
+            string choice = string.Empty;
+            while (choice != "q")
+            {
+                switch (choice)
+                {
+                    case "a":
+                        Console.WriteLine("Add Encounter Selected");
+                        break;
+                    case "e":
+                        Console.WriteLine("Edit Encounter Selected");
+                        break;
+                    case "d":
+                        Console.WriteLine("Delete Encounter Selected");
+                        break;
+                    case "l":
+                        Console.WriteLine("List Encounter Selected");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Input Please Try Again.");
+                        break;
+                }
+
+                Console.WriteLine("Encounter Menu");
+                Console.WriteLine("-----------------");
+                Console.WriteLine("q: Quit");
+                Console.WriteLine("a: Add Encounter");
+                Console.WriteLine("e: Edit Encounter");
+                Console.WriteLine("d: Delete Encounter");
+                Console.WriteLine("l: List Encounter");
+                Console.WriteLine("-----------------");
+
+                choice = Console.ReadLine();
+            }
+        }
+
+        #endregion
     }
 }
