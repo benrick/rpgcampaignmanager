@@ -1,12 +1,13 @@
 #summary Requirements for Character Management
 #labels Phase-Requirements
 
-= Introduction =
+= Summary =
 
 Game masters will need to manage bits of information about player and non-player characters throughout their campaign. The system will need to have ways of managing these characters.
 
-= Details =
+== Details ==
 
-*Adding new player characters
-*Adding new non-player characters
-*Modifying existing characters
+  * Adding new player characters
+  * Adding new non-player characters
+  * Modifying existing characters
+
