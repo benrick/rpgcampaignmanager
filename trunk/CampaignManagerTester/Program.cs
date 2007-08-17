@@ -34,7 +34,6 @@ namespace CampaignManagerTester
                         SpeciesMenu();
                         break;
                     default:
-                        Console.WriteLine("Invalid Input Please Try Again.");
                         break;
                 }
 
@@ -74,7 +73,6 @@ namespace CampaignManagerTester
                         Console.WriteLine("List Characters Selected");
                         break;
                     default:
-                        Console.WriteLine("Invalid Input Please Try Again.");
                         break;
                 }
 
@@ -115,7 +113,6 @@ namespace CampaignManagerTester
                         Console.WriteLine("List Items Selected");
                         break;
                     default:
-                        Console.WriteLine("Invalid Input Please Try Again.");
                         break;
                 }
 
@@ -156,7 +153,6 @@ namespace CampaignManagerTester
                         Console.WriteLine("List Events Selected");
                         break;
                     default:
-                        Console.WriteLine("Invalid Input Please Try Again.");
                         break;
                 }
 
@@ -200,7 +196,6 @@ namespace CampaignManagerTester
                         EncounterMenu();
                         break;
                     default:
-                        Console.WriteLine("Invalid Input Please Try Again.");
                         break;
                 }
 
@@ -242,7 +237,6 @@ namespace CampaignManagerTester
                         Console.WriteLine("List Species Selected");
                         break;
                     default:
-                        Console.WriteLine("Invalid Input Please Try Again.");
                         break;
                 }
 
@@ -273,6 +267,9 @@ namespace CampaignManagerTester
                     case "a":
                         Console.WriteLine("Add Encounter Selected");
                         break;
+                    case "g":
+                        Console.WriteLine("Add Encounter Group Selected");
+                        break;
                     case "e":
                         Console.WriteLine("Edit Encounter Selected");
                         break;
@@ -283,7 +280,6 @@ namespace CampaignManagerTester
                         Console.WriteLine("List Encounter Selected");
                         break;
                     default:
-                        Console.WriteLine("Invalid Input Please Try Again.");
                         break;
                 }
 
@@ -291,9 +287,10 @@ namespace CampaignManagerTester
                 Console.WriteLine("-----------------");
                 Console.WriteLine("q: Quit");
                 Console.WriteLine("a: Add Encounter");
+                Console.WriteLine("g: Add Encounter Group");
                 Console.WriteLine("e: Edit Encounter");
                 Console.WriteLine("d: Delete Encounter");
-                Console.WriteLine("l: List Encounter");
+                Console.WriteLine("l: List Encounters");
                 Console.WriteLine("-----------------");
 
                 choice = Console.ReadLine();
