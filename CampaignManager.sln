@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignManager", "CampaignManager\CampaignManager.csproj", "{FBB7B1A1-05C4-4422-937F-03BF2E50A71E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enrick.Games.CampaignManager.Data", "Enrick.Games.CampaignManager.Data\Enrick.Games.CampaignManager.Data.csproj", "{4C73E8CE-A5C9-49D7-9981-2C7E2CC07FC5}"
