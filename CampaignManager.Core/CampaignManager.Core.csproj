@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>dfafd4b0-9a97-4ec8-a45e-8db87b25f2f7</ProjectGuid>
+    <ProjectGuid>{C9E0C667-D467-4AF1-A56E-BF180749C2CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CampaignManager.Core</RootNamespace>
@@ -45,8 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Domain\Campaign.cs" />
+    <Compile Include="Domain\City.cs" />
+    <Compile Include="Domain\Repositories\CampaignRepository.cs" />
+    <Compile Include="Domain\Repositories\CityRepository.cs" />
+    <Compile Include="Domain\Repositories\WorldRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Domain\World.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
