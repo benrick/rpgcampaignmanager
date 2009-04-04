@@ -10,4 +10,6 @@ Game masters will need to manage bits of information about player and non-player
   * Adding new player characters
   * Adding new non-player characters
   * Modifying existing characters
-
+  * Associate characters with cities
+  * Associate characters with business
+  * Associate characters with quest information
