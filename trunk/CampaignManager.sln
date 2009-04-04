@@ -3,9 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignManager", "CampaignManager\CampaignManager.csproj", "{FBB7B1A1-05C4-4422-937F-03BF2E50A71E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enrick.Games.CampaignManager.Data", "Enrick.Games.CampaignManager.Data\Enrick.Games.CampaignManager.Data.csproj", "{4C73E8CE-A5C9-49D7-9981-2C7E2CC07FC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignManager.UnitTests", "CampaignManager.UnitTests\CampaignManager.UnitTests.csproj", "{B9DE9B4F-B5B4-42B7-998F-6C3FCB142282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C5A6FF4-5986-4E8D-8E16-8EB90668EBE2}"
+	ProjectSection(SolutionItems) = preProject
+		CampaignManager.vsmdi = CampaignManager.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignManager.Core", "CampaignManager.Core\CampaignManager.Core.csproj", "{C9E0C667-D467-4AF1-A56E-BF180749C2CC}"
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CampaignManager.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,10 +26,14 @@ Global
 		{FBB7B1A1-05C4-4422-937F-03BF2E50A71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB7B1A1-05C4-4422-937F-03BF2E50A71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB7B1A1-05C4-4422-937F-03BF2E50A71E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C73E8CE-A5C9-49D7-9981-2C7E2CC07FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C73E8CE-A5C9-49D7-9981-2C7E2CC07FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C73E8CE-A5C9-49D7-9981-2C7E2CC07FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C73E8CE-A5C9-49D7-9981-2C7E2CC07FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DE9B4F-B5B4-42B7-998F-6C3FCB142282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DE9B4F-B5B4-42B7-998F-6C3FCB142282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DE9B4F-B5B4-42B7-998F-6C3FCB142282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DE9B4F-B5B4-42B7-998F-6C3FCB142282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E0C667-D467-4AF1-A56E-BF180749C2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E0C667-D467-4AF1-A56E-BF180749C2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E0C667-D467-4AF1-A56E-BF180749C2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E0C667-D467-4AF1-A56E-BF180749C2CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
